@@ -9,3 +9,5 @@ extra-deps:
 - bindings-uname-0.1
 - unliftio-0.2.0.0
 - ansi-terminal-0.7.1.1
+- conduit-extra-1.2.3
+- typed-process-0.2.0.0

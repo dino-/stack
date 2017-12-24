@@ -4,26 +4,13 @@
 -- | Separate module because TH.
 
 module System.Process.Log
-    (logCreateProcess
-    ,withProcessTimeLog
+    (withProcessTimeLog -- FIXME move into System.Process.Read
     ,showProcessArgDebug)
     where
 
 import qualified Data.Text as T
 import           Stack.Prelude
 import qualified System.Clock as Clock
-import           System.Process (CreateProcess(..), CmdSpec(..))
-
--- | Log running a process with its arguments, for debugging (-v).
-logCreateProcess :: MonadLogger m => CreateProcess -> m ()
-logCreateProcess CreateProcess { cmdspec = ShellCommand shellCmd } =
-  logDebug ("Creating shell process: " <> T.pack shellCmd)
-logCreateProcess CreateProcess { cmdspec = RawCommand name args } =
-  logDebug
-      ("Creating process: " <> T.pack name <> " " <>
-       T.intercalate
-           " "
-           (map showProcessArgDebug args))
 
 -- | Log running a process with its arguments, for debugging (-v).
 --

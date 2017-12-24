@@ -258,7 +258,6 @@ library:
   - System.Process.Log
   - System.Process.PagerEditor
   - System.Process.Read
-  - System.Process.Run
   - System.Terminal
   other-modules:
   - Hackage.Security.Client.Repository.HttpLib.HttpClient
