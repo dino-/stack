@@ -50,12 +50,12 @@ change in a future release.
 
 
 ### Issues Referenced
-  - https://github.com/commercialhaskell/stack/issues/191
-  - https://github.com/commercialhaskell/stack/issues/417
-  - https://github.com/commercialhaskell/stack/issues/335
-  - https://github.com/commercialhaskell/stack/issues/301
-  - https://github.com/commercialhaskell/stack/issues/365
-  - https://github.com/commercialhaskell/stack/issues/105
+  - <https://github.com/commercialhaskell/stack/issues/191>
+  - <https://github.com/commercialhaskell/stack/issues/417>
+  - <https://github.com/commercialhaskell/stack/issues/335>
+  - <https://github.com/commercialhaskell/stack/issues/301>
+  - <https://github.com/commercialhaskell/stack/issues/365>
+  - <https://github.com/commercialhaskell/stack/issues/105>
 
 ## Selecting a Resolver
 
